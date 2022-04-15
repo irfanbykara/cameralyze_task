@@ -13,7 +13,7 @@ def get_routes(request):
         'GET /api/books/',
         'GET /api/books/<str:pk>/',
         'POST /api/add-book/',
-        'UPDATE /api/update-book/<str:pk>/',
+        'POST /api/update-book/<str:pk>/',
         'DELETE /api/delete-book/<str:pk>',
 
     ]
